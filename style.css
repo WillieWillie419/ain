@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+}
+
+
+header nav div ul {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid gray;
+  padding: 5px 20px 5px 0;
+
+}
+
+
+
+.Assistance {
+  display: flex;
+  gap: 10px;
+
+}
+
+div.contact {
+  margin: auto;
+  width: 142px;
+  line-height: 1.3;
+}
+
+.num {
+  word-spacing: 3px;
+}
+
+.parent-flex {
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+
+}
+.container {
+  height: 80%;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+main .container .right {
+  background-image: url("https://i.ibb.co/8xLbMvD/Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+main .container .right .service {
+  position: absolute;
+  left: -20%;
+  top: 0;
+
+}
+
+main .container .right .rating {
+  position: absolute;
+  right: -20%;
+  bottom: 0px;
+}
+
+main .container .content {
+  width: 80%;
+}
+
+
+button {
+  height: 43px;
+  width: 115px;
+  background-color: #EF6530;
+  border: 0 solid;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 0 2px;
+  color: #fff;
+  font-size: 14px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.6s;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+}
+
+.work-time {
+  margin-left: 8px;
+
+}
+
+.image-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #1E1B1B;
+}
+
+.work-time p {
+  color: darkgrey;
+}
+
+svg {
+  margin-right: 3px;
+}
+
+
+#car-servicing-section {
+  background-color: #E2E6E9;
+
+}
+
+#what-we-offer-section {
+  background-color: #F2F2F2;
+}
+
+#what-we-offer-section .content {
+  text-align: center;
+  width: 100%;
+}
+
+#what-we-offer-section .content h1 {
+  font-size: 1.8rem;
+}
+
+.what-we-offer-card {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+#what-we-offer-section .content .what-we-offer-card .card {
+  height: 150px;
+  width: 150px;
+
+}
+
+.feature {
+  display: flex;
+  margin-bottom: 10px;
+  column-gap: 5px;
+}
+
+input {
+  width: 380px;
+  height: 42px;
+  border: none;
+  margin: 1.5px;
+  background-color: #FFFFFF;
+  padding-left: 30px;
+}
+
+.quote-left .feature p {
+  line-height: 1.5;
+  width: 322px;
+  height: 56px;
+  opacity: 0.6px;
+  color: #1E1B1B;
+
+}
+
+.quote-left .feature h4 {
+  line-height: 1.5;
+}
+
+.feature-2 {
+  display: flex;
+  margin-bottom: 10px;
+  column-gap: 5px;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 35px;
+  color: #1E1B1B;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+}
+
+.lines {
+  rotate: 90deg;
+  margin-top: 5px;
+  color: #FF6433;
+
+}
+
+div.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #fff;
+}
+
+
+div#card-with-bg.card {
+  background-color: #FF6433;
+  color: #fff;
+}
+
+div.learn {
+  margin: 30px 0 0 360px;
+}
+
+#get-in-touch {
+  background-color: #F2F2F2;
+  height: 70vh;
+  width: 100%;
+}
+
+#get-in-touch .first-row {
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+
+#get-in-touch .first-row .left-car {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://i.ibb.co/mNbDF5x/Image-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: right;
+}
+
+.first-row .left-car .left-car-card {
+  width: 70%;
+  height: 100%;
+  background-color: #FF6433;
+}
+
+.left-car-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 40px;
+
+}
+
+.left-car-card h1 {
+  font-size: 1.6rem;
+}
+
+.left-car-card .btn {
+  background-color: #262525;
+}
+
+#get-in-touch .first-row .right-car {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://i.ibb.co/jH1f35s/ov-Gr-EUgrky-E.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#get-in-touch .second-row {
+  width: 100%;
+  height: 25%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.second-row .container h1 {
+  color: #661CE7;
+}
+
+#get-in-touch .second-row .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
